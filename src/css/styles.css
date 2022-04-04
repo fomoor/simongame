@@ -1,0 +1,107 @@
+.disabled {
+    pointer-events: none;
+}
+
+select {
+    width: 160px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid #005490;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #005490;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background: #19cb98;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+button:disabled {
+    background-color: #e3e3e3 !important;
+    border: 1px solid #e3e3e3;
+    color: grey;
+}
+
+button:hover {
+    background: #14a27a;
+}
+
+.container {
+    margin: auto;
+    max-width: 1170px;
+    user-select: none;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.panel {
+    display: inline-block;
+}
+
+.game-panel {
+    width: 30%;
+    margin-left: -30%;
+}
+
+.control-panel {
+    position: absolute;
+    left: 55%;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    opacity: 0.6;
+    outline: none;
+}
+
+.square:hover {
+    opacity: 0.8 !important;
+}
+
+.square:active {
+    opacity: 1 !important;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.green-square {
+    border-top-left-radius: 150px;
+    background-color: green;
+}
+
+.red-square {
+    border-top-right-radius: 150px;
+    background-color: red;
+}
+
+.orange-square {
+    border-bottom-left-radius: 150px;
+    background-color: orange;
+}
+
+.blue-square {
+    border-bottom-right-radius: 150px;
+    background-color: blue;
+}
